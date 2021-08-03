@@ -649,8 +649,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .testimonial-item p {
+  font-size:15px;
   font-style: italic;
   margin: 0 auto 15px auto;
+}
+
+.testimonial-item button{
+  padding:5px;
+  background-color: #359477;
+  color: white;
 }
 
 
@@ -954,7 +961,7 @@ padding:5px;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 676px) {
  
   
   .image-fluid{
