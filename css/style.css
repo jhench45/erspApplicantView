@@ -331,13 +331,13 @@ h6 {
   border: none;
   background: #08376B;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 .btn-register{
   border: none;
   background: #F7B41E;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 0px;
 }
 
 /* Mobile Nav Toggle */
@@ -369,9 +369,9 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(52, 59, 64, 0.9);
-  left: -260px;
-  width: 260px;
+  background: rgba(255, 255, 255, 0.9);
+  left: -100%;
+  width: 100%;
   overflow-y: auto;
   transition: 0.4s;
 }
@@ -380,14 +380,17 @@ h6 {
   padding: 0;
   margin: 0;
   list-style: none;
+  text-align: center;
+  
 }
 
 #mobile-nav ul li {
   position: relative;
+  
 }
 
 #mobile-nav ul li a {
-  color: #fff;
+  color: #111;
   font-size: 16px;
   overflow: hidden;
   padding: 10px 22px 10px 15px;
@@ -432,6 +435,15 @@ h6 {
   position: fixed;
   background: rgba(52, 59, 64, 0.9);
   display: none;
+}
+
+#mobile-nav .buttons{
+  float: none;
+  display: flex;
+  flex-direction: column;
+}
+#mobile-nav .buttons .btn-login .btn-register{
+ background: #333;
 }
 
 /* Mobile Nav body classes */
