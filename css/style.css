@@ -953,3 +953,23 @@ padding:5px;
     margin-top: 20px;
   }
 }
+
+@media (max-width: 576px) {
+ 
+  
+  .image-fluid{
+    width: 150px;
+    height: auto;
+  }
+
+  .titles a{
+    
+    font-size: 25px;
+  }
+
+  .titles p{
+    margin-top:40px;
+  }
+  
+  
+}
